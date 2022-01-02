@@ -24,7 +24,7 @@ const Projects = () => {
         </div>
         
         <div className='columns'>
-          <div className="pro-list column">Cicero
+          <div className="pro-list column">CICERO<hr></hr><a href='https://github.com/lukacspapp/SEI-Project-4-Cicero'>ReadMe</a>
             <div className="pro-title">
               <p className="pro-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit rerum saepe nostrum natus tempore corporis autem accusantium excepturi maiores. Esse a error laudantium unde quis ullam reiciendis blanditiis accusantium.</p>
             </div>
@@ -32,7 +32,7 @@ const Projects = () => {
               <Cicero key={item.id} img={item.img} link={item.link}/>
             ))}
           </div>
-          <div className="pro-list column">Tokenizer
+          <div className="pro-list column">TOKENIZER<hr/><a href='https://github.com/lukacspapp/SEI-Project-3-Tokenizer'>ReadMe</a>
             <div className="pro-title">
               <p className="pro-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit rerum saepe nostrum natus tempore corporis autem accusantium excepturi maiores. Esse a error laudantium unde quis ullam reiciendis blanditiis accusantium.</p>
             </div>
@@ -42,7 +42,7 @@ const Projects = () => {
           </div>
         </div>
         <div className='columns'>
-        <div className="pro-list column">Brewdog API
+        <div className="pro-list column">BREWDOG API<hr/><a href='https://github.com/lukacspapp/SEI-Project-2-Brewdog'>ReadMe</a>
             <div className="pro-title">
               <p className="pro-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit rerum saepe nostrum natus tempore corporis autem accusantium excepturi maiores. Esse a error laudantium unde quis ullam reiciendis blanditiis accusantium.</p>
             </div>
@@ -50,7 +50,7 @@ const Projects = () => {
               <Brewdog key={item.id} img={item.img} link={item.link}/>
             ))}
           </div>
-          <div className="pro-list column">Tokenizer
+          <div className="pro-list column">SPACE INVADERS<hr/><a href='https://github.com/lukacspapp/SEI-Project-1-Space-Invaders'>ReadMe</a>
             <div className="pro-title">
               <p className="pro-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit rerum saepe nostrum natus tempore corporis autem accusantium excepturi maiores. Esse a error laudantium unde quis ullam reiciendis blanditiis accusantium.</p>
             </div>

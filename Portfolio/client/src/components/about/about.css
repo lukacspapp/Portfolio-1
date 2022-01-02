@@ -20,6 +20,10 @@
   justify-content: center;
 }
 
+.a-sub {
+  width: 90%;
+}
+
 
 .a-right {
   flex:1;
@@ -73,5 +77,8 @@
   }
   .ab-link {
     display: none;
+  }
+  .a-sub {
+    width: 100%;
   }
 }
