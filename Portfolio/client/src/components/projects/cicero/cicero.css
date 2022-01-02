@@ -1,0 +1,40 @@
+.p {
+  width: 300px;
+  height: 40vh;
+  margin: 20px 10px;
+  bottom: 2px solid black;
+}
+
+.p-browser {
+  padding-left: 5px;
+  height: 20px;
+  background-color: rgb(243, 242, 242);
+  display: flex;
+  align-items: center;
+  position: sticky;
+}
+
+.p-circle {
+  padding: 1px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin: 3px;
+  background-color: white;
+}
+.c-img {
+  width: 100%;
+  transition: all 9s ease;
+}
+
+.p:hover .c-img {
+  transform: translateY(-65%);
+}
+
+@media screen and (max-width:480px) {
+
+  .p{
+    width: 70%;
+    height: 20vh;
+  }
+}

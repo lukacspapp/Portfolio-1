@@ -1,0 +1,55 @@
+.pro {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.pro-texts {
+  width: 65%;
+}
+
+.project-title {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.project-desc {
+  margin: 20px 0px;
+}
+
+.pro-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 20px;
+}
+
+.pro-desc {
+  margin: 20px 0px;
+  font-weight: 200;
+  font-size: 18px;  
+  width: 40vw
+}
+
+@media screen and (max-width:480px) {
+  .pro {
+    padding: 10px;
+  }
+
+  .pro-texts {
+    width: 100%;
+  }
+
+  .pro-desc {
+    width: 100%;
+  }
+  .pro-list {
+    margin: 0px;
+  }
+}
+

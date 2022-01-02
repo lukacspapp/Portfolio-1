@@ -1,0 +1,52 @@
+.p {
+  width: 30vw;
+  height: 40vh;
+  margin: 20px 10px;
+  border: 1px solid rgb(243, 242, 242);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.red {
+  background-color: #FF605C;
+}
+
+.yellow {
+  background-color: #FFBD44;
+}
+
+.green {
+  background-color: #00CA4E;
+}
+
+.p-circle {
+  padding: 5.5px;
+}
+
+.t-img {
+  width: 100%;
+  transition: all 9s ease;
+}
+
+.p:hover .t-img {
+  transform: translateY(-85.1%);
+}
+
+.p-browser {
+  padding-left: 5px;
+  height: 30px;
+  background-color: rgb(243, 242, 242);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  z-index: 2;
+}
+
+@media screen and (max-width:480px) {
+  .p {
+    width: 70%;
+    height: 20vh;
+  }
+
+
+}
