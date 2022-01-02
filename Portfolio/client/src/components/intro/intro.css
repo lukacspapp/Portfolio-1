@@ -9,6 +9,9 @@
   align-items: center;
   justify-content: center;
 }
+.i-description {
+  font-size: 20px;
+}
 
 .i-right {
   flex: 1;

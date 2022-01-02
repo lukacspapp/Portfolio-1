@@ -43,6 +43,10 @@ svg {
   width: 80%;
 }
 
+.c-info {
+  width: 60%;
+}
+
 .c-info-item {
   display: flex;
   align-items: center;
@@ -50,6 +54,20 @@ svg {
   font-weight: 300;
   width: 70%;
 }
+
+.c-info-item-c {
+  display: flex;
+  align-items: center;
+  margin: 50px 0px;
+  font-weight: 300;
+  width: 100%;
+  border: solid gray 2px;
+  padding: 20px;
+  border-radius: 20px;
+  justify-content: center;
+  text-decoration: none;
+}
+
 
 .c-icon {
   width: 30px;
@@ -151,5 +169,8 @@ button {
   }
   .thank {
     text-align: center;
+  }
+  .c-info {
+    width: 90%;
   }
 }

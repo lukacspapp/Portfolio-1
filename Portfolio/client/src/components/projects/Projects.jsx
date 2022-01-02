@@ -7,8 +7,9 @@ import Space from './space/Space'
 import tokenizerData  from '../../tokenizerData'
 import brewdogData from '../../brewdogData'
 import ciceroData from '../../ciceroData'
+import SpaceData from '../../spaceData'
 
-// import 'bulma'
+
 
 const Projects = () => {
     return (
@@ -53,8 +54,8 @@ const Projects = () => {
             <div className="pro-title">
               <p className="pro-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit rerum saepe nostrum natus tempore corporis autem accusantium excepturi maiores. Esse a error laudantium unde quis ullam reiciendis blanditiis accusantium.</p>
             </div>
-            {tokenizerData.map((item) => (
-              <Tokenizer key={item.id} img={item.img} link={item.link}/>
+            {SpaceData.map((item) => (
+              <Space key={item.id} img={item.img} link={item.link}/>
             ))}
           </div>
         </div>

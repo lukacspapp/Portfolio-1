@@ -13,12 +13,13 @@
   height: 100%;
 }
 
-.a-card.bg {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  background-color: gray;
+.c-info-item {
+  border: 2px gray solid;
+  padding: 30px;
+  border-radius: 20px;
+  justify-content: center;
 }
+
 
 .a-right {
   flex:1;
@@ -46,10 +47,13 @@
 
   .a-left {
     width: 100%;
+    padding: none;
+    align-items: stretch;
   }
 
   .a-card {
     height: 30vh;
+    width: 90%;
   }
 
   .a-card.bg {
@@ -62,5 +66,12 @@
   }
   .a-title {
     font-size: 50px;
+  }
+  .c-info-item {
+    padding: 15px;
+    width: 90%;
+  }
+  .ab-link {
+    display: none;
   }
 }

@@ -1,11 +1,26 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ThemeContext } from '../../../context'
 import '../space/space.css'
 
-const Space = () => {
+const Space = ({img, link }) => {
+
+
+  const theme = useContext(ThemeContext)
+  const darkMode = theme.state.darkMode
+
+
+
 	return (
-		<div className='p'>
-      <h1>Space Invaders</h1>
-		</div>
+		<div style={{ border: darkMode && '1px solid #333' }} className='p'>
+      <div style={{ backgroundColor: darkMode && '#333' }} className="p-browser">
+        <div className="p-circle red"></div>
+        <div className="p-circle yellow"></div>
+        <div className="p-circle green"></div>
+      </div>
+      <a href={link} target='_blank' rel='norefferer'>
+        <img src={img} alt="" className='t-img'/>
+      </a>
+    </div>
 	)
 }
 

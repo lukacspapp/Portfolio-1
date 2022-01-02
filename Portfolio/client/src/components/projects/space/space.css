@@ -13,3 +13,12 @@
 
 
 }
+
+.p:hover .t-img {
+  transform: translateY(-23%);
+}
+
+.t-img {
+  width: 100%;
+  transition: all 8s ease;
+}
