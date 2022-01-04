@@ -14,10 +14,10 @@
 }
 
 .c-info-item {
-  border: 2px gray solid;
   padding: 30px;
   border-radius: 20px;
   justify-content: center;
+  background-color: #f76c6c;
 }
 
 .a-sub {
