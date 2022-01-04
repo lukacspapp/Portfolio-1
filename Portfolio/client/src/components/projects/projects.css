@@ -26,7 +26,7 @@
   align-items: center;
   font-size: 30px;
   font-weight: 400;
-  margin: 20px;
+  
 }
 
 .pro-desc {
@@ -34,6 +34,12 @@
   font-weight: 200;
   font-size: 18px;  
   width: 40vw
+}
+
+button {
+  font-size: 20px;
+  font-family: inherit;
+  
 }
 
 @media screen and (max-width:480px) {
