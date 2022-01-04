@@ -11,7 +11,7 @@ a{
 .c-bg {
   width: 20px;
   height: 100%;
-  background-color: blue;
+  background-color: #3500d3;
   position: absolute;
 }
 
@@ -65,7 +65,7 @@ svg {
   border-radius: 20px;
   justify-content: center;
   text-decoration: none;
-  background-color: #f76c6c;
+  background-color: #3500d3;
 }
 
 
