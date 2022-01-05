@@ -47,13 +47,6 @@ svg {
   width: 60%;
 }
 
-.c-info-item {
-  display: flex;
-  align-items: center;
-  margin: 50px 0px;
-  font-weight: 300;
-  width: 70%;
-}
 
 .c-info-item-c {
   display: flex;
