@@ -23,7 +23,7 @@
 
 
 .a-sub {
-  width: 90%;
+  /* width: 90%; */
 }
 
 
@@ -43,6 +43,20 @@
   object-fit: cover;
   border-radius: 30px;
 }
+
+@media screen  and (max-width:1200px) {
+  .a-card {
+    width: 90%;
+  }
+  .a-right {
+    margin-right: 10px;
+    text-align: center;
+  }
+  .a-title {
+    text-align: center;
+  }
+}
+
 
 @media screen  and (max-width:480px) {
   .about {

@@ -66,6 +66,13 @@ svg {
   justify-content: center;
   text-decoration: none;
   background-color: #3500d3;
+  box-shadow: 0 0 20px rgba(0 0 0, 0.3);
+  transition-property: box-shadow, transform;
+  transition-duration: 0.3s;
+}
+.c-info-item-c:hover, .c-info-item-c:focus, .c-info-item-c:active {
+  box-shadow: 0 0 20px rgba(0 0 0, 0.5);
+  transform: scale(1.1);
 }
 
 
@@ -115,12 +122,31 @@ button {
   padding: 15px;
   background-color: #3500d3;
   color: white;
-  font-weight: bold;
   cursor: pointer;
   border-radius: 20px;
   width: 30%;
   margin: 20px;
+  box-shadow: 0 0 20px rgba(0 0 0, 0.3);
+  transition-property: box-shadow, transform;
+  transition-duration: 0.3s;
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: lighter;
+
 }
+
+button:hover, button:focus, button:active {
+  box-shadow: 0 0 20px rgba(0 0 0, 0.5);
+  transform: scale(1.1);
+
+}
+
+@media screen and (max-width: 1200px) {
+  .c-info-item-c {
+    width: 35vw;
+  }
+}
+
 
 @media screen and (max-width: 480px) {
   .c {
