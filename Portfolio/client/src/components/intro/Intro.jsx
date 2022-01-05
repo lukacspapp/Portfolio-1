@@ -28,7 +28,7 @@ const Intro = () => {
               </div>
             </div>
             <p className="i-description">
-              I am junior full stack developer who recently graduated from General Assembely London. I am looking for a Junior Postion at wheqoifhaspmanq;fnqnavjksb
+              I am junior full stack developer who recently graduated from General Assembely London. Currently looking for an Junior Developor position 
             </p>
           </div>
           <div className='slidewrapper'>
