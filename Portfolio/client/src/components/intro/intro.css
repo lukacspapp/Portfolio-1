@@ -7,7 +7,8 @@
   flex: 1;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: column;
 }
 .i-description {
   font-size: 20px;
@@ -23,7 +24,16 @@
   height: 70%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.slidewrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  justify-content:space-between;
 }
 
 .i-intro {
@@ -100,11 +110,19 @@
     align-items: center;
     text-align: center;
     height: 100%;
+    margin-top: 30px;
+
+    
+
   }
   .i-title-item {
     justify-content: center;
   }
   .i-description {
+    display: none;
+  }
+
+  .slidewrapper {
     display: none;
   }
 }

@@ -1,9 +1,14 @@
-import React from 'react'
+import React  from 'react'
 import '../intro/intro.css'
 import profile from '../../image/IMG_5663_ccexpress.png'
-import me from '../../image/profile avatar_ccexpress.png'
+import {Link} from 'react-scroll'
+
 
 const Intro = () => {
+
+  
+
+  
   return (
       <div className='i'>
         <div className='i-left'>
@@ -26,14 +31,14 @@ const Intro = () => {
               I am junior full stack developer who recently graduated from General Assembely London. I am looking for a Junior Postion at wheqoifhaspmanq;fnqnavjksb
             </p>
           </div>
-          {/* <div className='slidewrapper'>
-            <h1>about</h1>
-            <h1>projects</h1>
-            <h1>contact</h1>
-          </div> */}
-          <svg xmlns="http://www.w3.org/2000/svg" className="scroll" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <div className='slidewrapper'>
+            <Link to='a-about' smooth={true} duration={1000}><h1>about</h1></Link>
+            <Link to='p-pro' smooth={true} duration={1000}><h1>projects</h1></Link>
+            <Link to='c-contact' smooth={true} duration={1000}><h1>contact</h1></Link>
+          </div>
+          {/* <svg xmlns="http://www.w3.org/2000/svg" className="scroll" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
-          </svg>
+          </svg> */}
         </div>
         <div className='i-right'>
           <div className="i-clippy"></div>

@@ -1,15 +1,15 @@
-import React, { useContext } from 'react'
+import React, { useContext} from 'react'
 import './about.css'
-import img from '../../image/aboutme.jpeg'
-import { useState } from 'react'
 import { ThemeContext } from '../../context'
+
+
 
 
 
 
 const About = () => {
 
-  
+
 
   const theme = useContext(ThemeContext)
   const darkMode = theme.state.darkMode
@@ -18,7 +18,7 @@ const About = () => {
 
 
   return (
-    <div className='about'>
+    <div className='about' id='a-about'>
       <div className="a-left">
         <div className="a-card">
           <a href='https://github.com/lukacspapp'>

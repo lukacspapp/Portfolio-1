@@ -13,7 +13,7 @@ import SpaceData from '../../spaceData'
 
 const Projects = () => {
     return (
-      <div className='pro'>
+      <div className='pro' id='p-pro'>
         <div className="pro-texts">
           <h1 className="project-title">Projects</h1>
           <p className="project-desc">
