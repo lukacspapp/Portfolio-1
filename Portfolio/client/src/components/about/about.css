@@ -16,14 +16,31 @@
 .c-info-item {
   display: flex;
   align-items: center;
-  margin: 50px 0px;
+  margin: 30px 40px;
   width: 70%;
+  background-color: white;
+  justify-content: center;
+  border-radius: 20px;
+  height: 80px;
+  width: 110px;
+  padding: 5px;
 }
 
 .icon {
-  height: 50px;
+  height: 70px;
   width: 100px;
 }
+.icon-d {
+  width: 110px;
+}
+.icon-m {
+  width: 110px;
+}
+.icon-i {
+  height: 70px;
+  width: 100px;
+}
+
 .python {
   width: 60px;
   
@@ -78,14 +95,38 @@
   }
 
   .a-left {
-    width: 100%;
+    width: 40%;
     padding: none;
-    align-items: stretch;
+    /* align-items: stretch; */
+  }
+  .icon-i {
+    display: none;
+  }
+  .icon-mbd {
+    display: none;
+  }
+
+  .icon-m{
+    display: none;
+  }
+  .icon-d {
+    display: none;
   }
 
   .a-card {
     height: 30vh;
     width: 90%;
+    margin: 10px;
+      height: 30vh; 
+      width: 30%;
+      border-radius: 30px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      
   }
 
   .a-card.bg {
@@ -99,11 +140,18 @@
   .a-title {
     font-size: 50px;
   }
-  .c-info-item {
-    padding: 15px;
-    width: 90%;
-  }
   .a-sub {
     width: 100%;
+  }
+  .c-info-item {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    justify-content: center;
+    border-radius: 20px;
+    height: 7vh;
+    width: 16vw;
+    padding: 5px;
   }
 }
