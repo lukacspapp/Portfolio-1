@@ -32,13 +32,13 @@ const Intro = () => {
             </p>
           </div>
           <div className='slidewrapper'>
-            <Link to='a-about' smooth={true} duration={1000}><h1>about</h1></Link>
-            <Link to='p-pro' smooth={true} duration={1000}><h1>projects</h1></Link>
-            <Link to='c-contact' smooth={true} duration={1000}><h1>contact</h1></Link>
+            <Link className='s-link' to='a-about' smooth={true} duration={1000}><h1 className='s-link-title'>about</h1></Link>
+            <Link className='s-link' to='p-pro' smooth={true} duration={1000}><h1 className='s-link-title'>projects</h1></Link>
+            <Link className='s-link' to='c-contact' smooth={true} duration={1500}><h1 className='s-link-title'>contact</h1></Link>
           </div>
-          {/* <svg xmlns="http://www.w3.org/2000/svg" className="scroll" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <Link className='s-link' to='a-about' smooth={true}><svg xmlns="http://www.w3.org/2000/svg" className="scroll" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
-          </svg> */}
+          </svg></Link>
         </div>
         <div className='i-right'>
           <div className="i-clippy"></div>

@@ -1,6 +1,7 @@
 import React, { useContext} from 'react'
 import './about.css'
 import { ThemeContext } from '../../context'
+import {Link} from 'react-scroll'
 
 
 
