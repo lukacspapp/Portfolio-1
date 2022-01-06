@@ -70,7 +70,7 @@ const About = () => {
       </div>
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
-        <p className="a-sub">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto eos distinctio excepturi omnis aut rerum assumenda enim delectus soluta, non, fuga repellendus laborum officia. Sint libero ullam maxime aliquam omnis!</p>
+        <p className="a-sub">I </p>
       </div>
     </div>
   )

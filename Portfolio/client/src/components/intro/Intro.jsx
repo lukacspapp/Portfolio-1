@@ -28,8 +28,9 @@ const Intro = () => {
               </div>
             </div>
             <p className="i-description">
-              I am junior full stack developer who recently graduated from General Assembely London. Currently looking for an Junior Developor position 
+            I am a London-based Junior Full Stack Developer transitioning from the public/private health sector. My interest for coding was sparked by a couple of close friends and when I started learn and dive into it deeper in to the topic I fell in love with it.
             </p>
+            <p className='i-description'>I have recently completed a Software Engineer Immersive course at General Assembely and now I am looking for my first role, where I can learn to be a better coder than yesterday.</p>
           </div>
           <div className='slidewrapper'>
             <Link className='s-link' to='a-about' smooth={true} duration={1000}><h1 className='s-link-title'>about</h1></Link>
