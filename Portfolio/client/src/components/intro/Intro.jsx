@@ -14,7 +14,7 @@ const Intro = () => {
         <div className='i-left'>
           <div className="i-left-wrapper">
             <h2 className='i-intro'>Hey, My name is</h2>
-            <h2 className='i-name'>Lukacs Papp</h2>
+            <h2 className='i-name'>Lukacs J Papp</h2>
             <div className="i-title">
               <div className="i-title-wrapper">
                 <div className="i-title-item">HTML</div>
@@ -28,9 +28,9 @@ const Intro = () => {
               </div>
             </div>
             <p className="i-description">
-            I am a London-based Junior Full Stack Developer transitioning from the public/private health sector. My interest for coding was sparked by a couple of close friends and when I started learn and dive into it deeper in to the topic I fell in love with it.
+            Welcome and thank you for taking the time to check out my site!
+            I am a London-based Junior Full Stack Developer.
             </p>
-            <p className='i-description'>I have recently completed a Software Engineer Immersive course at General Assembely and now I am looking for my first role, where I can learn to be a better coder than yesterday.  I thrive when collaborating on forward-thinking and innovative projects with a passionate team of people.</p>
           </div>
           <div className='slidewrapper'>
             <Link className='s-link' to='a-about' smooth={true} duration={1000}><h1 className='s-link-title'>about</h1></Link>

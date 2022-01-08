@@ -41,12 +41,14 @@ const Contact = () => {
         <div className="c-left">
           <h1 className="c-title">Get in Touch!</h1>
           <div className="c-info">
+          <a href='tel:+447577244977'>
             <div className="c-info-item-c">
               <svg style={{ color: !darkMode && 'white'}} xmlns="http://www.w3.org/2000/svg" className='phone' class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              <div style={{ color: !darkMode && 'white'}}>+44 (0) 7577 244977</div>
+              <div style={{ color: !darkMode && 'white'}}>07577244977</div>
             </div>
+            </a>
             <a href='mailto:papplukacs@hotmail.com'>
             <div className="c-info-item-c">
               <svg style={{ color: !darkMode && 'white'}} xmlns="http://www.w3.org/2000/svg" class="h-2 w-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -80,8 +82,9 @@ const Contact = () => {
         </div>
         <div className="c-right">
           <p className='c-desc'>
-            <b>Would like to reach out?</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti est nostrum, voluptate alias blanditiis earum, illo repudiandae eum temporibus ab totam harum ad exercitationem cumque similique dignissimos qui numquam mollitia.
+            <b>Would like to reach out?</b> 
           </p>
+          <p className='c-desc'>Send me an email through this form.</p>
           <form ref={form} onSubmit={handleSubmit}>
             <input style={{ backgroundColor: darkMode && '#333', borderRadius: darkMode && '10px', color: darkMode && 'white' }} type='text' required placeholder='Name' name='user_name' />
             <input style={{ backgroundColor: darkMode && '#333', borderRadius: darkMode && '10px', color: darkMode && 'white' }} type='text' required placeholder='Subject' name='user_subject' />

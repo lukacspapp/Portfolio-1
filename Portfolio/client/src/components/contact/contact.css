@@ -83,7 +83,8 @@ svg {
 }
 
 .c-desc {
-  font-weight: 200;
+  font-size: 30px;
+  width: 61%;
 }
 
 form {

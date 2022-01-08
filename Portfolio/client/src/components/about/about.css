@@ -16,7 +16,7 @@
 .c-info-item {
   display: flex;
   align-items: center;
-  margin: 30px;
+  margin: 20px;
   width: 70%;
   background-color: white;
   justify-content: center;
@@ -47,7 +47,9 @@
 }
 
 .a-sub {
-  /* width: 90%; */
+    width: 47vw;
+    font-size: 20px;
+
 }
 
 
@@ -97,6 +99,7 @@
   .a-left {
     width: 40%;
     padding: none;
+    display: none;
     /* align-items: stretch; */
   }
   .icon-i {

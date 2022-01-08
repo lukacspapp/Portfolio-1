@@ -26,14 +26,14 @@
   align-items: center;
   font-size: 30px;
   font-weight: 400;
-  
+  margin-top: 20px;
 }
 
 .pro-desc {
   margin: 20px 0px;
   font-weight: 200;
   font-size: 18px;  
-  width: 40vw
+  width: 40vw;
 }
 
 @media screen and (max-width:1200px) {

@@ -70,7 +70,14 @@ const About = () => {
       </div>
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
-        <p className="a-sub">I </p>
+        <p className="a-sub">I am originally from Budapest, Hungary and my interest for coding was sparked by a couple of close friends and when I started learn and dive into it deeper in to the topic I fell in love with it.
+        I have recently completed a Software Engineer Immersive course at General Assembely and now I am looking for my first role. 
+        
+        </p>
+        <p className="a-sub">
+        I believe that a person should work on improving their own self-development, skills and learning new things all the time 
+        and I thrive when collaborating on forward-thinking and innovative projects with a passionate team of people.
+        </p>
       </div>
     </div>
   )
