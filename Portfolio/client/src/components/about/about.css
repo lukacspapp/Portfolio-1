@@ -97,6 +97,9 @@ i {
 
 
 @media screen  and (max-width:480px) {
+  .a-sub-mobile {
+    display: none;
+  }
   .about {
     flex-direction: column;
     text-align: center;
