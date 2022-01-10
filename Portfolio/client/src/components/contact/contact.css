@@ -40,7 +40,7 @@ svg {
 
 .c-title {
   font-size: 60px;
-  width: 80%;
+  width: 100%;
 }
 
 .c-info {
@@ -192,4 +192,8 @@ button:hover, button:focus, button:active {
   .c-info {
     width: 90%;
   }
+  .c-info-item-c {
+    width: 100%;
+  }
+
 }

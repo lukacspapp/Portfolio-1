@@ -19,6 +19,7 @@
   margin: 20px 0px;
 }
 
+
 .pro-list {
   display: flex;
   flex-direction: column;
@@ -46,6 +47,7 @@
 @media screen and (max-width:480px) {
   .pro {
     padding: 10px;
+    margin-top: 50px;
   }
 
   .pro-texts {
@@ -57,5 +59,6 @@
   }
   .pro-list {
     margin: 0px;
+    width: 90%;
   }
 }
