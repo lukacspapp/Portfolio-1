@@ -18,7 +18,7 @@ const Space = ({img, link }) => {
         <div className="p-circle green"></div>
       </div>
       <a href={link} target='_blank' rel='norefferer'>
-        <img src={img} alt="" className='t-img'/>
+        <img src={img} alt="" className='s-img'/>
       </a>
     </div>
 	)

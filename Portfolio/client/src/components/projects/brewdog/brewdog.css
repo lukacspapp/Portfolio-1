@@ -7,11 +7,11 @@
 
 .b-img {
   width: 100%;
-  transition: all 8s ease;
+  transition: all 9s ease;
 }
 
 .p:hover .b-img {
-  transform: translateY(-73%);
+  transform: translateY(-73.5%);
 }
 
 @media screen and (max-width:480px) {

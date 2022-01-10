@@ -14,11 +14,11 @@
 
 }
 
-.p:hover .t-img {
-  transform: translateY(-23%);
+.p:hover .s-img {
+  transform: translateY(-28%);
 }
 
-.t-img {
+.s-img {
   width: 100%;
-  transition: all 8s ease;
+  transition: all 9s ease;
 }
