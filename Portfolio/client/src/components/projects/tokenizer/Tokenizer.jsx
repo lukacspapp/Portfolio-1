@@ -17,7 +17,7 @@ const Tokenizer = ({img, link}) => {
         <div className="p-circle green"></div>
       </div>
       <a href={link} target='_blank' rel='norefferer'>
-        <img src={img} alt="" className='t-img'/>
+        <img src={img} alt="" className='token-img'/>
       </a>
     </div>
     

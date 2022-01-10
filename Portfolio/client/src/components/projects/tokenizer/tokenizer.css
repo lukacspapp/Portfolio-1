@@ -23,13 +23,13 @@
   padding: 5.5px;
 }
 
-.t-img {
+.token-img {
   width: 100%;
   transition: all 9s ease;
 }
 
-.p:hover .t-img {
-  transform: translateY(-85.1%);
+.p:hover .token-img {
+  transform: translateY(-88%);
 }
 
 .p-browser {

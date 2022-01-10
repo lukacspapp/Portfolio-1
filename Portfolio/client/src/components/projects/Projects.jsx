@@ -11,6 +11,7 @@ import SpaceData from '../../spaceData'
 
 
 
+
 const Projects = () => {
     return (
       <div className='pro' id='p-pro'>
@@ -21,15 +22,15 @@ const Projects = () => {
           <br></br>
         </div>
         <div className='columns'>
-          <div className="pro-list">CICERO<button><a className='readme' href='https://github.com/lukacspapp/SEI-Project-4-Cicero'>ReadMe</a></button>
+          <div className="pro-list">CICERO<a className='p-link' href='https://github.com/lukacspapp/SEI-Project-4-Cicero'>ReadMe</a>
             <div className="pro-title">
-              <p className="pro-desc">Full-stack e-commerce app built with React, Python, and Django. I created my own RESTful APIs, had authentication as part of our back-end, and also used Bootstrap. I focused more on the back-end part of the project.</p>
+              <p className="pro-desc">Full-stack e-commerce app built with React, Python, and Django. I created my own RESTful APIs. The app has payment integration as well from Braintree and I also used Bootstrap. I focused more on the back-end part of the project.</p>
             </div>
             {ciceroData.map((item) => (
               <Cicero key={item.id} img={item.img} link={item.link}/>
             ))}
           </div>
-          <div className="pro-list">TOKENIZER<button><a href='https://github.com/lukacspapp/SEI-Project-3-Tokenizer'>ReadMe</a></button>
+          <div className="pro-list">TOKENIZER<a className='p-link' href='https://github.com/lukacspapp/SEI-Project-3-Tokenizer'>ReadMe</a>
             <div className="pro-title">
               <p className="pro-desc">Built a full-stack MERN e-commerce application using our own RESTful APIs, where users can create, sell and buy their own or existing NFTs. I particularly focused on the back-end and the design.</p>
             </div>
@@ -39,7 +40,7 @@ const Projects = () => {
           </div>
         </div>
         <div className='columns'>
-        <div className="pro-list">BREWDOG API<button><a href='https://github.com/lukacspapp/SEI-Project-2-Brewdog'>ReadMe</a></button>
+        <div className="pro-list">BREWDOG API<a className='p-link' href='https://github.com/lukacspapp/SEI-Project-2-Brewdog'>ReadMe</a>
             <div className="pro-title">
               <p className="pro-desc">Used React, JavaScript, CSS with Bulma and Brewdog's external public API, where we built an application to showcase Brewdog beers and compare them with a filter.</p>
             </div>
@@ -47,7 +48,7 @@ const Projects = () => {
               <Brewdog key={item.id} img={item.img} link={item.link}/>
             ))}
           </div>
-          <div className="pro-list">SPACE INVADERS<button><a href='https://github.com/lukacspapp/SEI-Project-1-Space-Invaders'>ReadMe</a></button>
+          <div className="pro-list">SPACE INVADERS<a className='p-link' href='https://github.com/lukacspapp/SEI-Project-1-Space-Invaders'>ReadMe</a>
             <div className="pro-title">
               <p className="pro-desc">I recreated a browser version of the retro Space Invaders game using HTML, CSS, and JavaScript.</p>
             </div>
