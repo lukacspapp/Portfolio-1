@@ -75,7 +75,10 @@ const About = () => {
             <i class="devicon-heroku-original"></i>
             <p className='i-p'>Heroku</p>
           </div>
-
+          <div className="c-info-item">
+            <i class="devicon-sass-original"></i>
+            <p className='i-p'>SASS</p>
+          </div>
         </div>
       </div>
       <div className="a-right">
