@@ -15,6 +15,7 @@ const Intro = () => {
           <div className="i-left-wrapper">
             <h2 className='i-intro'>Hey, My name is</h2>
             <h2 className='i-name'>Lukacs J Papp</h2>
+            <h2 className='i-name-sub'>Junior Full Stack Developer</h2>
             <div className="i-title">
               <div className="i-title-wrapper">
                 <div className="i-title-item">HTML</div>
@@ -29,7 +30,7 @@ const Intro = () => {
             </div>
             <p className="i-description">
             Welcome and thank you for taking the time to check out my site!
-            I am a London-based Junior Full Stack Developer.
+            I am London based Junior Full Stack Developer
             </p>
           </div>
           <div className='slidewrapper'>
