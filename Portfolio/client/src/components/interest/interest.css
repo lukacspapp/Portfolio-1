@@ -37,10 +37,11 @@
   font-weight: 400;
   margin-top: 20px;
   border: 1px solid #333;
-  height: 30vh;
+  height: 40vh;
   justify-content: space-around;
   margin: 20px;
   border-radius: 20px;
+  padding: auto;
   
 }
 
